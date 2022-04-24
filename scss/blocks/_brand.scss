@@ -1,0 +1,50 @@
+.brand {
+    display: flex;
+    align-items: center;
+    min-height: 363px;
+    background-color: $pink-bkg;
+
+    .brand__img {
+        width: 50%;
+    }
+    
+    .brand__title-wrp {
+        flex-grow: 1;
+        padding: 0 0 0 92px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .brand__title {
+        font-size: 48px;
+        font-weight: 900;
+        line-height: 58px;
+        text-transform: uppercase;
+        font-style: normal;
+        margin-left: 92px;
+        color: $black-bkg;
+        position: relative;
+    }
+    
+    .brand__title:before {
+        content: '';
+        width: 12px;
+        height: 92px;
+        position: absolute;
+        top: 4px;
+        left: -28px;
+        background-image: url(../img/rectangle.svg);
+    }
+    
+    .brand__title-lower {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 38px;
+        display: block;
+    }
+    
+    .brand__title-pink {
+        color: $pink-color;
+    }
+}
+
