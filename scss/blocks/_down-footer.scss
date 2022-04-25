@@ -8,6 +8,12 @@
     align-items: center;
 }
 
+@media (max-width: 767px) {
+    .down-footer__wpr {
+        flex-direction: column-reverse;
+    }
+}
+
 .down-footer__copy {
     font-size: 16px;
     line-height: 19px;
@@ -17,10 +23,24 @@
     color: #FFFFFF;
 }
 
+@media (max-width: 767px) {
+    .down-footer__copy {
+        margin-top: 40px;
+        margin-bottom: 9px;
+    }
+}
+
 .down-footer__list {
     display: flex;
     min-height: 79px;
     align-items: center;
+}
+
+@media (max-width: 767px) {
+    .down-footer__list {
+        min-height: auto;
+        margin-top: 43px;
+    }
 }
 
 .down-footer__item {

@@ -17,6 +17,12 @@
     margin-left: 32px;
 }
 
+@media (max-width: 600px) {
+    .header__conteiner {
+        margin-left: 16px;
+    }
+}
+
 .header__search {
     display: flex;
     align-items: center;
@@ -58,6 +64,12 @@
     color: #FFFFFF;
 }
 
+@media (max-width: 600px) {
+    .header__search-input {
+        width: 100%;
+    }
+}
+
 .header__search-input:hover {
     outline: 1px solid #ffe08c;
 }
@@ -70,6 +82,13 @@
     display: flex;
     align-items: center;
     margin-right: 32px;
+}
+
+@media (max-width: 600px) {
+    .header__manu-list {
+        margin-right: 16px;
+        margin-left: 16px;
+    }
 }
 
 .header__burger {
@@ -97,6 +116,12 @@
 
 .header__link {
     margin: 0 0 0 33px;
+}
+
+@media (max-width: 600px) {
+    .header__link {
+        display: none;
+    }
 }
 
 .header__person-icon {

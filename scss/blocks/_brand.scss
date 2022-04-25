@@ -8,6 +8,12 @@
         width: 50%;
     }
     
+    @media (max-width: 767px) {
+        .brand__img {
+            display: none;
+        }
+    }
+
     .brand__title-wrp {
         flex-grow: 1;
         padding: 0 0 0 92px;
@@ -26,6 +32,25 @@
         position: relative;
     }
     
+    @media (max-width: 1023px) {
+        .brand__title {
+            font-size: 44px;
+            line-height: 52px;
+            font-weight: 900;
+            font-style: normal;
+            margin-left: 80px;
+        }
+    }
+
+    @media (max-width: 767px) {
+        .brand__title {
+            font-size: 38px;
+            line-height: 46px;
+            font-weight: 900;
+            font-style: normal;
+        }
+    }
+
     .brand__title:before {
         content: '';
         width: 12px;
@@ -36,6 +61,12 @@
         background-image: url(../img/rectangle.svg);
     }
     
+    @media (max-width: 1023px) {
+        .brand__title:before {
+            height: 78px;
+        }
+    }
+
     .brand__title-lower {
         font-size: 32px;
         font-weight: 700;
@@ -43,6 +74,24 @@
         display: block;
     }
     
+    @media (max-width: 1023px) {
+        .brand__title-lower {
+            font-size: 24px;
+            line-height: 28px;
+            font-weight: 900;
+            font-style: normal;
+        }
+    }
+
+    @media (max-width: 767px) {
+        .brand__title-lower {
+            font-size: 20px;
+            line-height: 24px;
+            font-weight: 900;
+            font-style: normal;
+        }
+    }
+
     .brand__title-pink {
         color: $pink-color;
     }

@@ -25,6 +25,12 @@ body {
     margin: 0 auto;
 }
 
+@media (max-width: 767px) {
+    .conteiner {
+        padding: 0;
+    }
+}
+
 .all-wrapper {
     max-width: 1600px;
     margin: 0 auto;
